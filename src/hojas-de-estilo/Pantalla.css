@@ -1,0 +1,22 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif; */
+
+.input{
+    height: 48px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    margin: 3px 8px 0px 8px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+}

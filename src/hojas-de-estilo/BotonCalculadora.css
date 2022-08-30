@@ -1,0 +1,38 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif; */
+
+.boton-contenedor {
+    background-color: var(--cream);
+    height: 47px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.operador {
+    background-color: var(--brown);
+}
+
+.boton-contenedor:hover {
+    box-shadow: 5px 4px 20px #000000a8;
+}
+
+.operador:hover {
+    box-shadow: 5px 4px 20px #000000a8;
+}

@@ -1,0 +1,49 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif; */
+
+.tarea-formulario button{
+    background-color: transparent;
+    border: none;
+}
+.icono-boton{
+    width: 30px;
+    height: 30px;
+    color: var(--darkBrown);
+    cursor: pointer;
+}
+
+
+.tarea-formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 3px;
+}
+
+.tarea-input{
+    width: 90%;
+    min-height: 1.5rem;
+    background-color: var(--darkBrown);
+    color: var(--cream) !important;
+    outline: none;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tarea-input::placeholder{
+    color: var(--cream);
+}

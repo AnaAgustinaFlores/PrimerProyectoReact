@@ -1,0 +1,29 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif; */
+
+.contenedor-calculadora{
+    background-color: var(--darkBrown);
+    width: 280px;
+    height: 340px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 10px 32px #0000008c;
+}
+
+.fila{
+    margin: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

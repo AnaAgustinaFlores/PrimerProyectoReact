@@ -1,0 +1,128 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Poppins', sans-serif; */
+
+.contenedor-piepagina {
+    /* background-color: #135286; */
+    max-width: 100%;
+
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.contenedor-piepagina::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f6ce968a;
+}
+
+.href-contenedor {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+h1 {
+    padding-top: 15px;
+    width: fit-content;
+}
+
+h1,
+h2 {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: .8rem;
+    text-align: center;
+    min-width: 100%;
+}
+
+h1,
+h2,
+.contenedor-piepagina a {
+    padding: 10px;
+
+}
+
+.href-contenedor::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f6ce9663;
+}
+
+.img-href{
+    width: 25px;
+}
+
+.logo-react {
+    width: 25px;
+    animation: rotate infinite 4s linear;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.contenedor-piepagina a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.contenedor-piepagina a {
+    position: relative;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+}
+
+a::after {
+    position: absolute;
+    bottom: .3em;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    opacity: 0;
+    transition: .3s;
+}
+
+.contenedor-piepagina a:hover::after {
+    bottom: 0;
+    opacity: 1;
+}
+
+.contenedor-piepagina a:hover {
+    letter-spacing: 2.5px;
+}
+
+.contenedor-piepagina a {
+    width: fit-content;
+}
+
+@media screen and (min-width:846px)  {
+    .href-contenedor::after{
+        display: none;
+    }
+    
+}

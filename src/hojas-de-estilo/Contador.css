@@ -1,0 +1,27 @@
+:root {
+    --blue: #186FB7;
+    --cream: #F6CE96;
+    --brown: #DF8B4B;
+    --darkBrown: #694B47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poiret+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Poppins', sans-serif; */
+
+
+.contador {
+    background-color: var(--darkBrown);
+    min-width: 150px;
+    height: 75px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    box-shadow: 10px 5px 30px #00000070;
+    text-align: center;
+    text-shadow: 6px 10px 20px black;
+    font-size: 4rem;
+    line-height: 30%;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+}
